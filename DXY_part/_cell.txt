@@ -1,0 +1,12 @@
+=== 22 ===
+baseline.save('baseline_arima000.pkl')
+arima_garch.save('arima_garch_twostep.pkl')
+arimax_garch.save('arimax_garch_twostep.pkl')
+joint_ar.save('joint_ar_garch.pkl')
+joint_arx.save('joint_arx_garch.pkl')
+ridge.save('ridge_model.pkl')
+lasso.save('lasso_model.pkl')
+
+lasso_results.to_csv('../data/processed/lasso_predictions.csv')
+
+print("✓ All models and results saved!")

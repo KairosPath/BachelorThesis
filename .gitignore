@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.ipynb_checkpoints/
+
+# Optional large / local artifacts
+*.pkl
+**/models/saved/**
+**/results/
+
+# OS
+Thumbs.db
+.DS_Store
