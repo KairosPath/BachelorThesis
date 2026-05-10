@@ -1,5 +1,5 @@
 asset_panel,variable,canonical,nobs,adf_stat,adf_p_value,adf_lags,adf_stationary_5pct,kpss_stat,kpss_p_value,kpss_lags,kpss_stationary_5pct,joint_conclusion
-DXY,EEM,EEM,5263,-15.750949650706087,1.2235305494563216e-28,19,True,0.06726809529643049,0.1,27,True,Stationary by ADF and KPSS
+DXY,EEM,EEM,5263,-15.750948594869579,1.223533937533658e-28,19,True,0.06726810430572917,0.1,27,True,Stationary by ADF and KPSS
 DXY,HG=F,Copper,5263,-19.871760576500872,0.0,11,True,0.09030318659814647,0.1,7,True,Stationary by ADF and KPSS
 DXY,^TNX,TNX,5263,-12.020188992002604,3.0362272001497377e-22,33,True,0.15490216012064736,0.1,5,True,Stationary by ADF and KPSS
 DXY,GC=F,Gold,5263,-24.68873800098533,0.0,8,True,0.20862801543277631,0.1,11,True,Stationary by ADF and KPSS
