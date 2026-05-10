@@ -1,5 +1,5 @@
 asset,specification,uses_exog,selected_order,expected_nb02_order,matches_nb02,aic,bic,llf,estimator,note
-DXY,ARIMA+GARCH mean,False,"(0, 0, 0)","(0, 0, 0)",True,-33068.643955806314,-33062.29873787964,16535.321977903157,pmdarima.auto_arima(stepwise=True),Reproduces NB02/NB03 two-step order selection; not an exhaustive grid.
-DXY,ARIMAX+GARCH mean,True,"(0, 0, 1)","(0, 0, 1)",True,-33141.46661081354,-33071.6692136201,16581.73330540677,pmdarima.auto_arima(stepwise=True),Reproduces NB02/NB03 two-step order selection; not an exhaustive grid.
-EEM,ARIMA+GARCH mean,False,"(2, 0, 1)","(2, 0, 1)",True,-21691.16146555867,-21665.784396133622,10849.580732779335,pmdarima.auto_arima(stepwise=True),Reproduces NB02/NB03 two-step order selection; not an exhaustive grid.
-EEM,ARIMAX+GARCH mean,True,"(2, 0, 1)","(2, 0, 1)",True,-21771.338395456114,-21688.8629198247,10898.669197728057,pmdarima.auto_arima(stepwise=True),Reproduces NB02/NB03 two-step order selection; not an exhaustive grid.
+DXY,ARIMA+GARCH mean,False,"(0, 0, 0)","(0, 0, 0)",True,-33068.643955806314,-33062.29873787964,16535.321977903157,pmdarima.auto_arima(stepwise=True),expected_nb02_order = TwoStepARIMAGARCHModel.order (NB02).
+DXY,ARIMAX+GARCH mean,True,"(0, 0, 1)","(0, 0, 1)",True,-33141.46661081354,-33071.6692136201,16581.73330540677,pmdarima.auto_arima(stepwise=True),expected_nb02_order = TwoStepARIMAGARCHModel.order (NB02).
+EEM,ARIMA+GARCH mean,False,"(2, 0, 1)","(2, 0, 1)",True,-21691.16146555867,-21665.784396133622,10849.580732779335,pmdarima.auto_arima(stepwise=True),expected_nb02_order = TwoStepARIMAGARCHModel.order (NB02).
+EEM,ARIMAX+GARCH mean,True,"(2, 0, 1)","(2, 0, 1)",True,-21771.338395456114,-21688.8629198247,10898.669197728057,pmdarima.auto_arima(stepwise=True),expected_nb02_order = TwoStepARIMAGARCHModel.order (NB02).
