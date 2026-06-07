@@ -23,6 +23,7 @@ including rolling **out-of-sample** forecasts, Diebold–Mariano and related dia
 | `reports/tables/` | CSV exports from `05_appendix` (and related). |
 | `reports/figures/` | PDF figures from `04`, `05`, and exploration notebooks as configured. |
 | `requirements.txt` | Single dependency list for the whole project. |
+| `EMH - BachelorThesis.pdf` | Final version of the bachelor thesis. |
 
 ---
 
